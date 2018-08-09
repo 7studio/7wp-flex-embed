@@ -1,0 +1,27 @@
+.swp-Embed {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.swp-Embed-ratio {
+  display: block;
+  padding-bottom: 100%;
+  width: 100%;
+}
+.swp-Embed-content iframe {
+  max-width: 100%;
+}
+.swp-Embed[embed-aspectRatio] .swp-Embed-content {
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%
+}
+.swp-Embed[embed-aspectRatio] .swp-Embed-content iframe {
+  height: 100%;
+  width: 100%;
+}
